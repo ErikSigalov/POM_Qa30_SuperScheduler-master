@@ -3,6 +3,7 @@ package schedulerscreens;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidElement;
+import models.Auth;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
@@ -18,6 +19,10 @@ public class LoginScreen extends BaseScreen{
     MobileElement passwordEditText;
     @FindBy(how = How.XPATH,using = "//*[@resource-id='com.example.svetlana.scheduler:id/login_btn']")
     MobileElement loginButton;
+    @FindBy (xpath = "//*[@resource-id='android:id/message']")
+    MobileElement errorMessage;
+    @FindBy (xpath = "//*[@resource-id='']")
+    MobileElement okBtn;
 
     public LoginScreen fillEmail(String email){
         should(emailEditText,20);
@@ -34,8 +39,36 @@ public class LoginScreen extends BaseScreen{
         return new WizardScreen(driver);
     }
 
-// login complex
-    // login negative
+    public WizardScreen loginComplex(Auth auth){
+        should(emailEditText,20);
+        type(emailEditText,auth.getEmail());
+        type(passwordEditText,auth.getPassword());
+        hideKeyboard();
+        loginButton.click();
+        return new WizardScreen(driver);
+    }
+
+    public LoginScreen loginComplexWithErrorMessage(Auth auth){
+        should(emailEditText,20);
+        type(emailEditText,auth.getEmail());
+        type(passwordEditText,auth.getPassword());
+        hideKeyboard();
+        loginButton.click();
+        return this;
+    }
 
 
+    public LoginScreen checkErrorMessage(String text) {
+        shouldHave(errorMessage,text,10);
+        return this;
+    }
+
+    public LoginScreen confirmErrorMessage() {
+        okBtn.click();
+        return this;
+    }
+
+    public boolean isLoginButtonPresent() {
+        return isDisplayedWithExp(loginButton);
+    }
 }

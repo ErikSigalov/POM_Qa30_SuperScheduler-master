@@ -1,6 +1,7 @@
 package scheduler;
 
 import config.ConfigurationScheduler;
+import models.Auth;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import schedulerscreens.LoginScreen;
@@ -36,7 +37,23 @@ public class LoginTest extends ConfigurationScheduler {
     }
 
     @Test
-    public void loginAuthTest(){
-        //Auth
+    public void loginAuthTest() {
+        boolean isFabPresent =
+                new LoginScreen(driver)
+                        .loginComplex(Auth.builder().email("your2@gmail.com").password("Yy123456$").build())
+                        .skipWizard()
+                        .isFabAddPresent();
+        Assert.assertTrue(isFabPresent);
+
+    }
+    @Test
+    public void loginComplexCheckErrorMesage(){
+        boolean isLoginButtonPresent =
+                new LoginScreen(driver)
+                        .loginComplexWithErrorMessage(Auth.builder().email("your2@gmail.com").password("Yy123456").build())
+                        .checkErrorMessage("Wrong email or password")
+                        .confirmErrorMessage()
+                        .isLoginButtonPresent();
+        Assert.assertTrue(isLoginButtonPresent);
     }
 }
