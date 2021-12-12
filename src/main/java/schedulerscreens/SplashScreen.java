@@ -10,14 +10,14 @@ public class SplashScreen extends BaseScreen{
         super(driver);
     }
 
-    @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/app_version_res']")
+   @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/app_version_res']")
     MobileElement versionTextView;
 
     public String getCurrencyVersion(){
         return versionTextView.getText();
     }
     public LoginScreen checkVersion(String text){
-        shouldHave(versionTextView,text,10);
+       shouldHave(versionTextView,text,10);
         return new LoginScreen(driver);
     }
 

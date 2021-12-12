@@ -5,12 +5,12 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-@Getter
-@Setter
 @Builder
+@Setter
+@Getter
 @ToString
 public class Auth {
 
     String email;
-    String password;
+    String  password;
 }

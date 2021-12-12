@@ -1,0 +1,7 @@
+19:10:49 INFO  - LTNG : on Start --->/Users/tayahatum/Qa30/POM_Qa30_SuperScheduler/build/reports/tests/test/Gradle suite
+19:10:49 INFO  - LTNG : on Start --->Gradle test
+19:11:20 INFO  - LTNG : Start test getStatus--->16
+19:11:20 INFO  - LTNG : Start test getTestName--->null
+19:11:20 INFO  - LTNG : Start test getTestClass--->[TestClass name=class scheduler.LoginTest]
+19:11:20 INFO  - LTNG : Start test getName--->loginStartLoginScreen
+19:11:54 INFO  - LTNG : Start test getTestName--->null

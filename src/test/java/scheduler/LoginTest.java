@@ -1,12 +1,17 @@
 package scheduler;
 
 import config.ConfigurationScheduler;
+import config.DataProviderMy;
+import config.ListenerTestNG;
 import models.Auth;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import schedulerscreens.LoginScreen;
 import schedulerscreens.SplashScreen;
 
+
+//@Listeners(ListenerTestNG.class)
 public class LoginTest extends ConfigurationScheduler {
 
     @Test
@@ -24,21 +29,38 @@ public class LoginTest extends ConfigurationScheduler {
 
     }
 
-    @Test
-    public void loginStartLoginScreen(){
+    @Test(dataProvider = "loginData",dataProviderClass = DataProviderMy.class)
+    public void loginStartLoginScreen(Auth auth){
+
 
         boolean isFabPresent = new LoginScreen(driver)
-                .fillEmail("your8@gmail.com")
-                .fillPassword("Yy123456$")
+                //.fillEmail("your2@gmail.com")
+              //  .fillPassword("Yy123456$")
+                .fillEmail(auth.getEmail())
+                .fillPassword(auth.getPassword())
                 .clickLoginBtn()
                 .skipWizard()
                 .isFabAddPresent();
         Assert.assertTrue(isFabPresent);
     }
+    @Test(dataProvider = "loginDataCSV",dataProviderClass = DataProviderMy.class)
+    public void loginStartLoginScreenCSV(Auth auth){
+
+        boolean isBTN =  new LoginScreen(driver)
+                .loginComplex(auth)
+                .skipWizard()
+                .isFabAddPresentAssert()
+                .openMenu()
+                .logOut()
+                .isLoginButtonPresent();
+
+        Assert.assertTrue(isBTN);
+
+    }
 
     @Test
-    public void loginAuthTest() {
-        boolean isFabPresent =
+    public void loginAuthTest(){
+        boolean isFabPresent=
                 new LoginScreen(driver)
                         .loginComplex(Auth.builder().email("your2@gmail.com").password("Yy123456$").build())
                         .skipWizard()
@@ -46,14 +68,31 @@ public class LoginTest extends ConfigurationScheduler {
         Assert.assertTrue(isFabPresent);
 
     }
+    @Test(dataProvider = "loginData",dataProviderClass = DataProviderMy.class)
+    public void loginAuthTestDP(Auth auth){
+
+               boolean isBTN =  new LoginScreen(driver)
+                        .loginComplex(auth)
+                        .skipWizard()
+                        .isFabAddPresentAssert()
+                        .openMenu()
+                        .logOut()
+                        .isLoginButtonPresent();
+
+Assert.assertTrue(isBTN);
+
+    }
+
     @Test
-    public void loginComplexCheckErrorMesage(){
-        boolean isLoginButtonPresent =
+    public void loginComplexCheckErrorMessage(){
+        boolean isLoginButtonPresent=
                 new LoginScreen(driver)
                         .loginComplexWithErrorMessage(Auth.builder().email("your2@gmail.com").password("Yy123456").build())
                         .checkErrorMessage("Wrong email or password")
                         .confirmErrorMessage()
                         .isLoginButtonPresent();
+
         Assert.assertTrue(isLoginButtonPresent);
+
     }
 }

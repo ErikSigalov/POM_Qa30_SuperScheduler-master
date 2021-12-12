@@ -1,0 +1,17 @@
+19:44:04 INFO  - LTNG : on Start --->/Users/tayahatum/Qa30/POM_Qa30_SuperScheduler/build/reports/tests/test/Gradle suite
+19:44:04 INFO  - LTNG : on Start --->Gradle test
+19:44:04 INFO  - LTNG : Start test getStatus--->16
+19:44:04 INFO  - LTNG : Start test getTestName--->null
+19:44:04 INFO  - LTNG : Start test getTestClass--->[TestClass name=class scheduler.LoginTest]
+19:44:04 INFO  - LTNG : Start test getName--->loginAuthTestDP
+19:44:05 INFO  - LTNG : Start test getTestName--->null
+19:44:05 INFO  - LTNG : Start test getStatus--->16
+19:44:05 INFO  - LTNG : Start test getTestName--->null
+19:44:05 INFO  - LTNG : Start test getTestClass--->[TestClass name=class scheduler.LoginTest]
+19:44:05 INFO  - LTNG : Start test getName--->loginAuthTestDP
+19:44:05 INFO  - LTNG : Start test getTestName--->null
+19:44:05 INFO  - LTNG : Start test getStatus--->16
+19:44:05 INFO  - LTNG : Start test getTestName--->null
+19:44:05 INFO  - LTNG : Start test getTestClass--->[TestClass name=class scheduler.LoginTest]
+19:44:05 INFO  - LTNG : Start test getName--->loginAuthTestDP
+19:44:05 INFO  - LTNG : Start test getTestName--->null

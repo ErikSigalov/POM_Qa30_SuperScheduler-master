@@ -21,8 +21,9 @@ public class LoginScreen extends BaseScreen{
     MobileElement loginButton;
     @FindBy (xpath = "//*[@resource-id='android:id/message']")
     MobileElement errorMessage;
-    @FindBy (xpath = "//*[@resource-id='']")
+    @FindBy(xpath = "//*[@resource-id='android:id/button1']")
     MobileElement okBtn;
+
 
     public LoginScreen fillEmail(String email){
         should(emailEditText,20);
@@ -42,33 +43,29 @@ public class LoginScreen extends BaseScreen{
     public WizardScreen loginComplex(Auth auth){
         should(emailEditText,20);
         type(emailEditText,auth.getEmail());
-        type(passwordEditText,auth.getPassword());
+        type(passwordEditText, auth.getPassword());
         hideKeyboard();
         loginButton.click();
         return new WizardScreen(driver);
     }
-
     public LoginScreen loginComplexWithErrorMessage(Auth auth){
         should(emailEditText,20);
         type(emailEditText,auth.getEmail());
-        type(passwordEditText,auth.getPassword());
+        type(passwordEditText, auth.getPassword());
         hideKeyboard();
         loginButton.click();
         return this;
     }
-
-
-    public LoginScreen checkErrorMessage(String text) {
+    public LoginScreen checkErrorMessage(String text){
         shouldHave(errorMessage,text,10);
         return this;
     }
-
-    public LoginScreen confirmErrorMessage() {
+public LoginScreen confirmErrorMessage(){
         okBtn.click();
         return this;
-    }
-
-    public boolean isLoginButtonPresent() {
+}
+public boolean isLoginButtonPresent(){
         return isDisplayedWithExp(loginButton);
-    }
+}
+
 }

@@ -1,0 +1,75 @@
+18:42:46 INFO  - Start find element -- >By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:42:46 INFO  - The element was found -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:42:46 INFO  - You have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:c0e:d786:7250:7b3a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c08bf7a7-6040-4961-a503-a7eb7f845db9
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}[Ljava.lang.StackTraceElement;@5a72f2b0
+18:42:47 INFO  - Screen with error in file --->/Users/tayahatum/Qa30/POM_Qa30_SuperScheduler/src/test/screenshots/scr2567.png
+18:42:48 INFO  - Start find element -- >By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:42:48 INFO  - The element was found -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:42:48 INFO  - You have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:c0e:d786:7250:7b3a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c08bf7a7-6040-4961-a503-a7eb7f845db9
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']}[Ljava.lang.StackTraceElement;@584617ba
+18:42:51 INFO  - Screen with error in file --->/Users/tayahatum/Qa30/POM_Qa30_SuperScheduler/src/test/screenshots/scr2571.png
+18:42:51 INFO  - Start find element -- >By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:42:51 INFO  - The element was found -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:42:52 INFO  - Start find element -- >By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:42:52 INFO  - The element was found -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:42:52 INFO  - Start find element -- >By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:42:53 INFO  - The element was found -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:42:55 INFO  - Start find element -- >By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:42:55 INFO  - The element was found -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_email_input']
+18:42:56 INFO  - Start find element -- >By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+18:42:56 INFO  - The element was found -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+18:42:57 INFO  - Start find element -- >By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+18:42:58 INFO  - The element was found -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+18:42:58 INFO  - Start find element -- >By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+18:42:59 INFO  - The element was found -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/log_password_input']
+18:43:02 INFO  - Start find element -- >By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+18:43:02 INFO  - The element was found -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/login_btn']
+18:43:03 INFO  - Start find element -- >By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip_container']
+18:43:05 INFO  - The element was found -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip_container']
+18:43:05 INFO  - You have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:c0e:d786:7250:7b3a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c08bf7a7-6040-4961-a503-a7eb7f845db9
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip_container']}[Ljava.lang.StackTraceElement;@513e1ede
+18:43:08 INFO  - Screen with error in file --->/Users/tayahatum/Qa30/POM_Qa30_SuperScheduler/src/test/screenshots/scr2588.png
+18:43:09 INFO  - Start find element -- >By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip_container']
+18:43:09 INFO  - The element was found -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip_container']
+18:43:09 INFO  - You have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:c0e:d786:7250:7b3a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c08bf7a7-6040-4961-a503-a7eb7f845db9
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip_container']}[Ljava.lang.StackTraceElement;@3250abad
+18:43:11 INFO  - Screen with error in file --->/Users/tayahatum/Qa30/POM_Qa30_SuperScheduler/src/test/screenshots/scr2591.png
+18:43:12 INFO  - Start find element -- >By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip_container']
+18:43:12 INFO  - The element was found -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip_container']
+18:43:12 INFO  - You have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Taya.local', ip: 'fe80:0:0:0:c0e:d786:7250:7b3a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_151'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {app: /Users/tayahatum/Tools/apk/..., appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Nex, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 72, takesScreenshot: true, viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c08bf7a7-6040-4961-a503-a7eb7f845db9
+*** Element info: {Using=xpath, value=//*[@resource-id='com.example.svetlana.scheduler:id/wizard_settings_skip_container']}[Ljava.lang.StackTraceElement;@46a2ec43
+18:43:14 INFO  - Screen with error in file --->/Users/tayahatum/Qa30/POM_Qa30_SuperScheduler/src/test/screenshots/scr2594.png
+18:43:14 INFO  - Start find element -- >By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+18:43:15 INFO  - The element was found -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+18:43:15 INFO  - Start find element -- >By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
+18:43:16 INFO  - The element was found -->By.xpath: //*[@resource-id='com.example.svetlana.scheduler:id/fab_main']
