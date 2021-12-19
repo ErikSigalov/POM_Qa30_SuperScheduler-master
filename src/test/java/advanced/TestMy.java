@@ -10,19 +10,10 @@ import schedulerscreens.HomeScreen;
 public class TestMy extends ConfigAdvanced {
 
     @Test
-    public void launch1(){
+    public void launch(){
 
-       new DragScreen(driver)
-               .selectDraggableBasic();
 
     }
-    @Test
-    public void launch2(){
 
-        new DragScreen(driver)
-                .selectSwipeButton()
-                .selectSwipeableBasic();
-
-    }
 
 }

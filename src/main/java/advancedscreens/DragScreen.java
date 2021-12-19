@@ -16,6 +16,7 @@ public class DragScreen extends BaseScreenADV {
     @FindBy(xpath = "//*[@class='androidx.appcompat.app.ActionBar$Tab'][2]")
     MobileElement swipeButton;
 
+
     public DraggableBasicScreen selectDraggableBasic(){
         selectDraggable.click();
         return new DraggableBasicScreen(driver);
